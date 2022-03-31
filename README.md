@@ -1,4 +1,4 @@
-# AutoML-Extensions-Project-Proposal
+# AutoML-Extensions-Screening-Exercise
 
 ## Answer: 114
 
