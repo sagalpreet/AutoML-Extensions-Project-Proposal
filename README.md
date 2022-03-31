@@ -10,6 +10,11 @@ The python script can be accessed from script.py.
 
 ### Implementation Details
 
-Manually update the value of random seed in the file `vowpal_wabbit/test/unit_test/automl_test.cc` from 10 to 11.
-Iterate from 0 to 1331. Build and run unit test for each possibility until the tests pass. This is automated using python script.
-The value for which test passes without any error is essentially the example at which champion change occurs for the new seed value.
+- Manually update the value of random seed in the file `vowpal_wabbit/test/unit_test/automl_test.cc` from 10 to 11.
+- Iterate from 0 to 1331. Build and run unit test for each possibility until the tests pass. This is automated using python script.
+- The value for which test passes without any error is essentially the example at which champion change occurs for the new seed value.
+
+### Reproduce the approach
+
+- Place script.py in the root directory of the project i.e. in vowpal_wabbit directory.
+- Run the script.
