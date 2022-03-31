@@ -13,7 +13,7 @@ content1 = content[0]
 text = '  const size_t deterministic_champ_switch = '
 content2 = content[1]
 
-x = '/media/sagalpreet/Data/Sagal/RLOS/vowpal_wabbit/build/test/unit_test'
+x = f'{DIR}/build/test/unit_test'
 
 
 for i in range(1332):
